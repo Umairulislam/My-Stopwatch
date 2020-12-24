@@ -1,0 +1,95 @@
+body {
+    background-image: url('images/background1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+body{
+    justify-content: center;
+    text-align: center;
+}
+h1 {
+    display: inline-block;
+    padding: 4px;
+    width: 100px;
+    background-color: rgb(220,0,0);
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 8px;
+}
+
+
+.container {
+    background-color: rgb(254,26,26);
+    width: 400px;
+    margin: 100px auto;
+    border: 3px solid rgb(80,0,0);
+    border-radius: 12%;
+}
+.head {
+    background-color: rgb(220,0,0);
+    margin: 10px;
+}
+.num {
+    margin-top: 30px;
+    padding: 2px;
+}
+.text {
+    padding-bottom: 30px;
+}
+
+.btn {
+    width: 80px;
+    margin: 10px;
+    padding: 10px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.9s;
+    background-size: 200% auto;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 4px 4px 8px rgb(107,0,0);
+}
+.btn:hover {
+    background-position: right center; 
+    opacity: 0.7;
+}
+
+#startbtn {
+    background-image: linear-gradient(to right,rgb(220,0,0) 20%,
+    rgb(254,92,92)45%,rgb(187,0,0)80%)
+}
+#stopbtn {
+    background-image: linear-gradient(to right,rgb(220,0,0) 20%,
+    rgb(254,92,92)45%,rgb(187,0,0)80%)
+}
+#resetbtn {
+    background-image: linear-gradient(to right,rgb(220,0,0) 20%,
+    rgb(254,92,92)45%,rgb(187,0,0)80%)
+}
+
+
+@media only screen and (max-width: 430px) {
+    /* For mobile phones: */
+    [class*="container"] {
+      width: 100%;
+    }
+  }
+
+@media only screen and (max-width: 430px) {
+    /* For mobile phones: */
+    [class*="input"] {
+      width: 70px;
+    }
+  }
